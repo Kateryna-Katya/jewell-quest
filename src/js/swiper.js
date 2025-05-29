@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
     new Swiper('.gallery-swiper', {
         breakpoints: {
             374: {
-                slidesPerView: 1,
+                slidesPerView: 1.5,
                 spaceBetween: 10,
             },
             1439: {
-                slidesPerView: 2,
+                slidesPerView: 3.3,
                 spaceBetween: 24,
             },
         },

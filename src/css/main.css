@@ -440,3 +440,15 @@ margin-bottom: 40px;
     width: 600px;
   }
  }
+ /* Gallery */
+ .gallery-title{
+    margin-bottom: 40px;
+ }
+ .gallery-swiper-slide{
+    cursor: pointer;
+ }
+ @media only screen and (min-width: 1439px) {
+    .gallery-title {
+margin-bottom: 76px; 
+}   
+ }
