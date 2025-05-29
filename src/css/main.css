@@ -198,3 +198,245 @@ margin-top: -500px;
     height: 48px;
 }
 }
+/* Power-Ups */
+.power-title{
+    margin-bottom: 40px;
+}
+.power-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.power-item{
+    border-radius: 12px;
+        padding: 32px 20px;
+        width: 225px;
+        height: auto;
+        background: rgba(98, 103, 129, 0.2);
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.power-item-name{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+.power-item-text{
+    text-align: center;
+}
+@media only screen and (min-width: 1439px) {
+ .power-title{
+    margin-bottom: 76px;
+ }
+ .power-list{
+    flex-direction: row;
+ }
+ .power-item{
+    height: 282px;
+ }
+}
+/* Daily Rewards & Events */
+.daily-title{
+    margin-bottom: 16px;
+}
+.daily-text{
+    font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 40px;
+}
+.daily-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.daily-img-wrapper{
+    padding: 32px 40px;
+        width: 288px;
+        height: auto;
+}
+.daily-img-name{
+    font-weight: 600;
+    text-align: center;
+        color: #69cfff;
+        margin-bottom: 24px;
+}
+.daily-img-name-first{
+    margin-bottom: 72px;
+}
+.daily-img-name-second{
+    margin-bottom: 48px;
+}
+@media only screen and (min-width: 1439px) {
+  .daily-text{
+    font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 76px;
+  }
+  .daily-list{
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+/* Global Competition */
+.global-title{
+    margin-bottom: 16px;
+}
+.global-text{
+    font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 40px;
+}
+.global-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.global-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+@media only screen and (min-width: 1439px) {
+ .global-text{
+    font-weight: 700;
+        font-size: 20px;
+ }
+ .global-list{
+    margin-bottom: 0;
+    width: 448px;
+ }
+ .global-img{
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: -400px;
+ }
+}
+/* Player Reviews */
+.rewiews-title{
+    margin-bottom: 40px;
+}
+.reviews-swiper-slide{
+    box-shadow: 8px 8px 20px 0 rgba(91, 91, 91, 0.1);
+        background: rgba(98, 103, 129, 0.2);
+        border-radius: 12px;
+            padding: 24px 32px;
+        min-height: 204px;
+        cursor: pointer;
+}
+.reviews-wrapper{
+ margin-top: 52px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.reviews-wrapper-two{
+    margin-top: 30px;
+}
+.rewiews-author{
+    font-weight: 600;
+}
+.rewiews-author-status{
+    color: #69cfff;
+}
+.reviews-swiper-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+@media only screen and (min-width: 1439px) {
+  .rewiews-title{
+    margin-bottom: 76px;
+
+}
+.reviews-swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+  gap: 0;
+}
+}
+/* FAQ */
+.faq-title{
+margin-bottom: 40px;
+}
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+}
+
+.faq-acc-el-trigger {
+    background: rgba(98, 103, 129, 0.6);
+    border-radius: 4px;
+        padding: 16px;
+    border: none;
+    width: 343px;
+    height: 54px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: border-bottom-radius 0.3s ease;
+}
+.faq-acc-el.open .faq-acc-el-trigger {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.faq-acc-el-descr-frame {
+    border: none;
+    background: rgba(98, 103, 129, 0.2);
+    border-radius: 0 0 4px 4px;
+    padding: 16px;
+    width: 343px;
+    text-align: left;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+    border-radius: 0 0 4px 4px;
+    padding: 16px;
+    opacity: 1;
+     width: 343px;
+    max-height: 500px;
+    margin-bottom: 16px;
+ }
+ @media only screen and (min-width: 1439px) {
+  .faq-title{
+    margin-bottom: 76px;
+  }
+  .faq-acc {
+    width: 600px;
+  }
+  .faq-acc-el-trigger{
+    width: 600px;
+  }
+  .faq-acc-el-descr-frame{
+    width: 600px;
+  }
+  .faq-acc-el.open .faq-acc-el-descr-frame{
+    width: 600px;
+  }
+ }
