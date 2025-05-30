@@ -1,0 +1,80 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+
+
+.cookies-title {
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.3125;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.text-span {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.list-item{
+    padding-top: 8px;
+  }
+.policy-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 16px;
+}
+
+.text-color {
+    color: #69cfff;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1439px) {
+    .policy-container {
+        padding-left: 212px;
+        padding-right: 212px;
+    }
+
+    .cookies-title {
+        font-weight: 500;
+        font-size: 42px;
+        margin-bottom: 48px;
+    }
+
+    .policy-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+}

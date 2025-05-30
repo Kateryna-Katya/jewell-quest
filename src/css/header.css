@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  top: 8px;
+  top: 0px;
   left: 50%;
   transform: translateX(-50%);
   backdrop-filter: blur(20px);
@@ -45,7 +45,7 @@
   height: 755px;
   z-index: 1000;
   position: fixed;
-  top: 60px;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
   padding: 160px 40px;
@@ -82,7 +82,7 @@
 @media screen and (min-width: 1440px) {
   .header {
     height: 68px;
-    top: 0px;
+ 
   }
   .header-container {
     padding: 14px 108px;
