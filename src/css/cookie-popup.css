@@ -1,0 +1,105 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 0px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 40px 16px;
+    background: #515151;
+    z-index: 1000;
+    width: 374px;
+    height: auto;
+    display: none;
+}
+.cookie-class {
+    color: #fff;
+    text-align: center;
+    width: 332px;
+   }
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 343px;
+    height: 136px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 343px;
+        height: 56px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background: #038d00;
+    box-sizing: border-box;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-decline {
+    border: 1px solid #fff;
+        border-radius: 12px;
+        padding: 16px 32px;
+        width: 343px;
+        height: 56px;
+    font-weight: 700;
+    font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+    box-sizing: border-box;
+    background-color: inherit;
+    transition: background-color 0.3s ease ;
+}
+.btn-accept:hover {
+    background-color: #026b00;
+}
+.btn-decline:hover {
+    background-color: #333840;
+}
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 40px 108px;
+        width: 1439px;
+        height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 128px;
+    }
+    .cookie-class {
+        font-weight: 600;
+            font-size: 16px;
+        text-align: left;
+        width: 704px;
+    }
+
+    .cookie-buttons {
+        flex-direction: row;
+        gap: 24px;
+        width: 392px;
+        height: 56px;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .btn-accept {
+        padding: 14px;
+        width: 184px;
+        height: 56px;
+    }
+
+    .btn-decline {
+        padding: 14px;
+        width: 184px;
+            height: 56px;
+    }
+}
